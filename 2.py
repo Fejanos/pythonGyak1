@@ -14,6 +14,7 @@ Az átlagból következő jegy
 
 """
 
+# 3.
 # Függvény mindig a tetején!
 # def megnevezés(paraméter lista):
 def osztalyzat(param_atlag):
@@ -35,4 +36,8 @@ nev = input("Kérek egy nevet: ")
 while nev != "":
 
     atlag = float(input("Kérem az átlagot: "))
+
+    # 4. osztalyzat fgv. meghívása
+    osztalyzat(atlag)
+
     nev = input("Kérek egy nevet: ")
